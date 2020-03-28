@@ -24,5 +24,10 @@ namespace WPFBasics
         {
             InitializeComponent();
         }
+
+        private void fullNameButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"Hi {firstNameText.Text} {lastNameText.Text}");
+        }
     }
 }
